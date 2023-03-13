@@ -93,13 +93,14 @@ var finances = [
   // Total  number of months in the dataset-1
 
 
+  console.log (finances.length)
+
   //Net total amount of P/L over the entire period-2
 
 
 
-  //Avg of the changes in P/L over the entire period-3
+  //Avg of the changes in P/L over the entire period-3 see the code in the assignment page
 
-  (Total/(Number of months - 1))
 
 
 
