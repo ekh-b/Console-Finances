@@ -86,4 +86,31 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099],
   ];
+
   
+
+
+  // Total  number of months in the dataset-1
+
+
+  //Net total amount of P/L over the entire period-2
+
+
+
+  //Avg of the changes in P/L over the entire period-3
+
+  (Total/(Number of months - 1))
+
+
+
+  //The greatest increase in profits (date and amount) over the entire period-4
+
+
+
+
+
+
+
+  //The greatest decrease in losses (date and amount) over the entire period-5
+
+
