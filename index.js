@@ -121,7 +121,7 @@ console.log ('Total number of months:'+finances.length)
 
   for (var i = 0; i < TotalMonths; i++ ) {
 
-    Net += finances[i][1];  
+    Net += finances[i][1];  //need to define
 
   }
 
