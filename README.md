@@ -46,6 +46,10 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+Wepbages/ Tutorials:
+https://www.digitalocean.com/community/tutorials/how-to-work-with-strings-in-javascript
+
 ## License
 
 Please refer to the LICENSE in the repo.
+

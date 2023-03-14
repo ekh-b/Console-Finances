@@ -92,6 +92,16 @@ var finances = [
   ];
 
   
+// Variables
+
+// See above for Finances Variables might need a second one ?
+
+var TotalMonths = finances.length;
+var Net = 0;   // starts at zero to start from the top of the data?
+var Average= 1;
+var Increase = 2;
+var Decrease = 3;
+
 
 //Title
 
@@ -100,22 +110,33 @@ console.log ('-----------------------------')
 
   // Total  number of months in the dataset-1
 
-console.log ('Total number of months:')
-console.log (finances.length)
+console.log ('Total number of months:'+finances.length) 
 
-  //Net total amount of P/L over the entire period-2
-
-  console.log ('Total:')
+//console.log (finances.length) not needed use + o have pn one row
 
 
-  //Avg of the changes in P/L over the entire period-3 see the code in the assignment page
+  //Net total amount of P/L over the entire period-2- loop is needed for this as we want to total the whole data set
 
-  console.log ('Average Change:')
+  console.log ('Total:' +Net)
 
+  for (var i = 0; i < TotalMonths; i++ ) {
+
+    Net += finances[i][1];  
+
+  }
+
+
+
+
+  //Avg of the changes in P/L over the entire period-3 see the code in the assignment page(Total/(Number of months - 1))
+
+  console.log ('Average Change:'+Average)
+
+  
 
   //The greatest increase in profits (date and amount) over the entire period-4
 
-  console.log ('Greatest Increase in Profits/Losses:')
+  console.log ('Greatest Increase in Profits/Losses:'+Increase)
 
 
 
@@ -124,4 +145,4 @@ console.log (finances.length)
   //The greatest decrease in losses (date and amount) over the entire period-5
 
 
-  console.log ('Greatest Decrease in Profits/Losses:')
+  console.log ('Greatest Decrease in Profits/Losses:'+Decrease)
