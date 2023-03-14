@@ -103,6 +103,7 @@ var Increase = 0;
 var Decrease = 0;
 
 
+
 //Title
 
 console.log ('Financial Analysis')
@@ -129,7 +130,7 @@ console.log('Total: £' +Net)
 
   console.log ('Average Change£:'+Average)
 
- average= total/finances.length -1
+ average= Net/(finances.length )-1
 
   //The greatest increase in profits (date and amount) over the entire period-4
 

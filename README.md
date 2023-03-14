@@ -24,11 +24,7 @@ https://ekh-b.github.io/Console-Finances/
 2) Then click on the console tab to view the javascript code.
 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+   ![image](assets/images/Screenshot1.png)
 
 ## Credits
 
