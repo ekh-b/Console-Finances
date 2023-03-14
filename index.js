@@ -1,3 +1,7 @@
+
+//Dataset
+
+
 var finances = [
     ['Jan-2010', 867884],
     ['Feb-2010', 984655],
@@ -89,24 +93,29 @@ var finances = [
 
   
 
+//Title
+
+console.log ('Financial Analysis')
+console.log ('-----------------------------')
 
   // Total  number of months in the dataset-1
 
-
-  console.log (finances.length)
+console.log ('Total number of months:')
+console.log (finances.length)
 
   //Net total amount of P/L over the entire period-2
 
+  console.log ('Total:')
 
 
   //Avg of the changes in P/L over the entire period-3 see the code in the assignment page
 
-
+  console.log ('Average Change:')
 
 
   //The greatest increase in profits (date and amount) over the entire period-4
 
-
+  console.log ('Greatest Increase in Profits/Losses:')
 
 
 
@@ -115,3 +124,4 @@ var finances = [
   //The greatest decrease in losses (date and amount) over the entire period-5
 
 
+  console.log ('Greatest Decrease in Profits/Losses:')
